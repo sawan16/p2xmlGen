@@ -17,7 +17,7 @@ Require python 3.5 or above.
 4. $pip install updated_lark.zip  #Install updated Lark Parser. Have a look at https://github.com/lark-parser/ for more information.
    Now lark is installed.
 5. test_data.py file is given which contains example python code.
-6. How to Run:
+6. How to Run: <br />
    $python command_line.py <input.py> <output.xml>
  
 XML generated code saved into <output.xml> file. Open the xml file in web browser for better visualization.
