@@ -15,13 +15,18 @@ Require python 3.5 or above.
 
 ## From the ternimal
 3. Jump to the p2xmlGen folder
-4. $pip install Updated_lark.zip  #Install Updated Lark Parser. Have a look at https://github.com/lark-parser/ for more information.
+4. $pip install updated_lark.zip  #Install Updated Lark Parser. Have a look at https://github.com/lark-parser/ for more information.
    Now lark is installed.
 5. test_data.py file is given which contains example python code.
 6. How to Run:
    $python command_line.py <input.py> <output.xml>
+   Generated XML code will be saved into the <output.xml> file.
    
  ## Using the GUI Tool
- 
-XML generated code saved into xml_data.xml file. Open the xml file in web browser for better visualization.
-Based on requirement change the demo file. Keep the python3.lark file parallel to demo.py for simplicity.
+ 7. We need to install PyQt to execute the GUI tool. # PyQt Link: https://riverbankcomputing.com/software/pyqt/intro
+    We have used the existing notepad implementation given at following link: https://github.com/goldsborough/Writer-Tutorial
+ 8. How to Install PyQt:
+    $sudo apt-get install python-qt4
+ 9. After installing PyQt, run the gui.py from the command line as follows:
+    $sudo python gui.py
+
