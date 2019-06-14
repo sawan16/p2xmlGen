@@ -33,5 +33,5 @@ Some updation performed in the source code to run our p2xmlGen through the exist
 $sudo apt-get install python-qt4.
 
 Next, run the gui.py file from the commandline as follows:
-&nbsp;
-$sudo pythongui.py
+<br />
+$sudo python gui.py
