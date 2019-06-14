@@ -29,7 +29,7 @@ GUI tool is built using the PyQt library (https://riverbankcomputing.com/softwar
 We have used an existing implementation (Notepad) of PyQt given at the following link: https://www.binpress.com/building-text-editor-pyqt-1/
 Some updation performed in the source code to run our p2xmlGen through the existing implementation.
 
-## install PyQt:
+#### install PyQt:
 $sudo apt-get install python-qt4.
 
 Next, run the gui.py file from the commandline as follows:
